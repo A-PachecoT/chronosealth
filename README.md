@@ -15,27 +15,28 @@ This project is an AI-powered conversation system that generates, evaluates, and
 
 ## Project Structure
 
+```bash
 .
 ├── src/
 │ ├── ai/
-│ │ ├──**init**.py
+│ │ ├──__init__.py
 │ │ ├── conversation_generator.py
 │ │ └── ai_evaluator.py
 │ ├── communication/
-│ │ ├──**init**.py
+│ │ ├──__init__.py
 │ │ ├── message_sender.py
 │ │ └── slack_notifier.py
 │ ├── data/
-│ │ ├──**init**.py
+│ │ ├──__init__.py
 │ │ └── db_manager.py
 │ ├── monitoring/
-│ │ ├──**init**.py
+│ │ ├──__init__.py
 │ │ ├── health_checker.py
 │ │ └── llm_supervisor.py
-│ ├──**init**.py
+│ ├──__init__.py
 │ └── main.py
 ├── tests/
-│ ├──**init**.py
+│ ├──__init__.py
 │ ├── test_ai.py
 │ ├── test_communication.py
 │ ├── test_data.py
@@ -54,6 +55,7 @@ This project is an AI-powered conversation system that generates, evaluates, and
 ├── .env
 ├── README.md
 └── manual_trigger.py
+```
 
 ## Setup and Installation
 
