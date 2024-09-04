@@ -1,0 +1,7 @@
+schedule
+requests
+openai
+pymongo
+slack_sdk
+fastapi
+uvicorn
